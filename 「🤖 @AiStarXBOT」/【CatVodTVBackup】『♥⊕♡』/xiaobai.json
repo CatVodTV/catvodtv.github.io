@@ -1,53 +1,18 @@
 {
   "sites": [
-    {
-      "key": "腾讯官网",
-      "name": "腾讯官网",
-      "type": 1,
-      "api": "https://wabc.ml/mao/1.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "360_spider",
-      "name": "📺360(官源)",
+    { // 解析自己找
+      "key": "360",
+      "name": "360",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://catvodtv.github.io/sub/xpath/360.json"
     },
     {
-      "key": "csp_Alips",
-      "name": "🐱喵搜(只支持搜索)",
-      "type": 3,
-      "api": "csp_AliPanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_GitCafe",
-      "name": "📜小纸条",
-      "type": 3,
-      "api": "csp_GitCafe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_kuaikan",
-      "name": "👀快看(SP)",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_apple",
-      "name": "🍎小苹果(SP)",
+      "key": "LiteApple",
+      "name": "小苹果",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -55,8 +20,8 @@
       "filterable": 1
     },
     {
-      "key": "csp_77",
-      "name": "🎬77(SP)",
+      "key": "七七",
+      "name": "七七",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
@@ -64,8 +29,8 @@
       "filterable": 1
     },
     {
-      "key": "csp_zxzj",
-      "name": "📗在线(SP)",
+      "key": "在线之家",
+      "name": "在线之家",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -73,26 +38,26 @@
       "filterable": 1
     },
     {
-      "key": "diduan_spider",
-      "name": "📙低端影视(SP)",
+      "key": "小宝影院",
+      "name": "小宝影院",
       "type": 3,
-      "api": "csp_DiDuan",
+      "api": "csp_Xiaoh",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "csp_CZSPP",
-      "name": "📔厂长(SP)",
+      "key": "Auete",
+      "name": "Auete",
       "type": 3,
-      "api": "csp_CZSPP",
+      "api": "csp_Auete",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "csp_Cokemv",
-      "name": "📕Cokemv(SP)",
+      "key": "Cokemv",
+      "name": "Cokemv",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -100,110 +65,113 @@
       "filterable": 1
     },
     {
-      "key": "buka_spider",
-      "name": "📒不卡(SP)",
-      "type": 3,
-      "api": "csp_Buka",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "csp_xpath_nbys",
-      "name": "泥巴(SP需翻墙)",
-      "type": 3,
-      "api": "csp_Nbys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Dy1990",
-      "name": "1990电影(SP)",
-      "type": 3,
-      "api": "csp_DY1990",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "push_agent",
-      "name": "推送（阿里）",
-      "type": 3,
-      "api": "csp_Ali",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "csp_biubiu_lezhu",
-      "name": "乐猪(Biu)",
+      "key": "csp_biubiu_ysgc",
+      "name": "影视工厂(XB)",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "网上自己找XBIUBIU"
-    },
-    {
-      "key": "csp_biubiu_lgyy",
-      "name": "蓝光(Biu)",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "网上自己找XBIUBIU"
+      "ext": "https://catvodtv.github.io/XBiubiu/ysgc.json"
     },
     {
       "key": "csp_biubiu_555",
-      "name": "555(Biu)",
+      "name": "555影院(XB)",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "网上自己找XBIUBIU"
+      "ext": "https://catvodtv.github.io/XBiubiu/555.json"
     },
     {
-      "key": "v2_团夕",
-      "name": "团夕(V2)",
+      "key": "csp_biubiu_lezhu",
+      "name": "乐猪(XB)",
       "type": 3,
-      "api": "csp_AppYs2",
+      "api": "csp_XBiubiu",
       "searchable": 1,
-      "quickSearch": 0,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://catvodtv.github.io/XBiubiu/lezhutv.json"
+    },
+    { //列子，自己找Api
+      "key": "300看世界",
+      "name": "300看世界(v2)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.kan365.xyz/api.php/app/"
+      "ext": "https://300ys.xyz/mogai_api.php/v1.vod"
+    },
+    { //列子，自己找Api
+      "key": "钟特影视",
+      "name": "钟特影视(v2)",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://app.zteys.com/api.php/v1.vod"
+    },
+    { //列子，自己找Api
+      "key": "美剧虫",
+      "name": "美剧虫(v1)",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://meijuchong.com/api.php/v1.vod"
     },
     {
-      "key": "csp_xpath_huya",
-      "name": "虎牙直播",
+      "key": "789看片",
+      "name": "789看片(XP)",
+      "type": 3,
+      "api": "csp_XPathRec",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://catvodtv.github.io/sub/xpath/789ba.json"
+    },
+    {
+      "key": "Gimy",
+      "name": "Gimy(XP)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://catvodtv.github.io/sub/xpath/Gimy.json"
+    },
+    {
+      "key": "乐猪TV",
+      "name": "乐猪TV(XP)",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://catvodtv.github.io/sub/xpath/lezhutv.json"
+    },
+    {
+      "key": "Age动漫",
+      "name": "Age动漫(XP)",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "网上自己找XPATH"
-    },
-    {
-      "key": "csp_xpath_hdmoli",
-      "name": "HD茉莉(XP)",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "网上自己找XPATH"
+      "ext": "https://catvodtv.github.io/sub/xpath/agefans.json"
     },
     {
-      "key": "诺讯采集",
-      "name": "诺讯采集",
-      "type": 0,
-      "api": "https://caiji.nxflv.com/api.php/provide/vod/at/xml/",
-      "playUrl": "https://www.nxflv.com/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     }
   ],
   "lives": [
@@ -211,9 +179,9 @@
       "group": "redirect",
       "channels": [
         {
-          "name": "live*",
+          "name": "redirect",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9jYXR2b2R0di5naXRodWIuaW8vbGl2ZS9NdHYudHh0"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly90YW5nc2FuOTk5OTkuZ2l0aHViLmlvL2xpdmUvTXR2LnR4dA=="
           ]
         }
       ]
@@ -236,9 +204,9 @@
       "url": "Sequence"
     },
     {
-      "name": "web1",
-      "type": 0,
-      "url": "https://www.nxflv.com/?url=",
+      "name": "Pro",
+      "type": 1,
+      "url": "http://api.vip123kan.vip/?url=",
       "ext": {
         "flag": [
           "youku",
@@ -250,9 +218,7 @@
           "qiyi",
           "爱奇艺",
           "qq",
-          "奇艺",
-          "sohu",
-          "letv"
+          "奇艺"
         ]
       }
     }
@@ -268,9 +234,9 @@
     "pptv",
     "mgtv",
     "wasu",
-    "renrenmi",
+    "bilibili",
     "duoduozy",
-    "bilibili"
+    "renrenmi"
   ],
   "ijk": [
     {
@@ -320,11 +286,6 @@
           "category": 4,
           "name": "reconnect",
           "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
         },
         {
           "category": 4,
@@ -405,11 +366,6 @@
           "category": 4,
           "name": "reconnect",
           "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
         },
         {
           "category": 4,
@@ -503,5 +459,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://CatVodTV.github.io/BL_spider.jar"
+  "spider": "https://catvodtv.github.io/custom_spider.jar"
 }
