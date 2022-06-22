@@ -46,16 +46,6 @@
       "filterable": 0
     },
     {
-      "key": "番茄资源",
-      "name": "番茄资源(切)",
-      "type": 1,
-      "api": "http://api.fqzy.cc/api.php/provide/vod/",
-      "playUrl": "https://dp.fqplayer.com/dplayer/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "酷点资源",
       "name": "酷点资源(切)",
       "type": 1,
@@ -83,37 +73,10 @@
       "filterable": 0
     },
     {
-      "key": "韩剧资源",
-      "name": "韩剧资源(切)",
-      "type": 1,
-      "api": "http://www.hanjuzy.com/inc/apijson_vod.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "八戒资源",
-      "name": "八戒资源(切)",
-      "type": 1,
-      "api": "http://cj.bajiecaiji.com/inc/apijson_vod.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
       "key": "百度资源",
       "name": "百度资源(切)",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "无尽资源2",
-      "name": "无尽资源2(切)",
-      "type": 1,
-      "api": "https://wuzy9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -222,15 +185,6 @@
       "name": "荔枝影视(优)",
       "type": 1,
       "api": "http://www.zjys.vip/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "段友影视",
-      "name": "段友影视(优)",
-      "type": 1,
-      "api": "http://shangjihuoke.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -632,9 +586,8 @@
         {
           "name": "CCTV-6",
           "urls": [
-            "https://cdn.jsdelivr.net/gh/sun520999/m3u/Video/%E9%81%87%E8%A7%81%E4%BD%A0%E6%98%AF%E6%9C%80%E5%B9%B8%E8%BF%90%E7%9A%84%E4%BA%8B.mp4",
-            "http://117.148.179.153/PLTV/88888888/224/3221231724/index.m3u8",
-            "http://39.134.24.24/PLTV/88888888/224/3221226027/index.m3u8"
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225632/index.m3u8",
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225650/index.m3u8"
           ]
         },
         {
@@ -648,9 +601,8 @@
         {
           "name": "CCTV-8",
           "urls": [
-            "https://cdn.jsdelivr.net/gh/sun520999/m3u/Video/%E9%81%87%E8%A7%81%E4%BD%A0%E6%98%AF%E6%9C%80%E5%B9%B8%E8%BF%90%E7%9A%84%E4%BA%8B.mp4",
-            "http://39.134.24.24/PLTV/88888888/224/3221226029/index.m3u8",
-            "http://117.148.179.55/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230737/index.m3u8"
+            "http://39.135.138.60:18890/PLTV/88888910/224/3221225635/index.m3u8",
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225631/index.m3u8"
           ]
         },
         {
@@ -686,10 +638,11 @@
         {
           "name": "CCTV-13",
           "urls": [
-            "rtsp://183.252.176.54:554/PLTV/88888888/224/3221226104/10000100000000060000000002298296_0.smil",
             "http://39.135.138.60:18890/PLTV/88888910/224/3221225638/index.m3u8",
             "http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8",
-            "http://111.13.42.8/PLTV/88888888/224/3221226568/1.m3u8"
+            "http://111.13.42.8/PLTV/88888888/224/3221226568/1.m3u8",
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225638/index.m3u8?$移动蓝光1080P",
+            "http://39.135.138.60:18890/PLTV/88888910/224/3221225638/index.m3u8"
           ]
         },
         {
