@@ -19,31 +19,11 @@
       ]
     },
     {
-      "key": "6U资源",
-      "name": "6U资源(官)",
-      "type": 1,
-      "api": "http://zy.ataoju.com/inc/apijson_vod.php",
-      "playUrl": "parse:parwix1",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "天堂资源",
-      "name": "天堂资源(官)",
-      "type": 1,
-      "api": "http://vipmv.cc/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "M3U8.TV资源",
-      "name": "M3U8.TV资源(官)",
-      "type": 1,
-      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
+      "key": "wolong",
+      "name": "wolong",
+      "type": 0,
+      "api": "https://www.wolongzyw.com/api.php/provide/vod/at/xml",
+      "playUrl": "https://www.tutukiki.com/m3u8/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -53,26 +33,6 @@
       "name": "麒麟资源(官)",
       "type": 1,
       "api": "http://www.qilinzyz.com/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "英皇官采",
-      "name": "英皇官采(官)",
-      "type": 0,
-      "api": "https://apicdn.vipm3u8.com/xml",
-      "playUrl": "https://player.cdn.ormanjiaju.com/player?token=4732bUERfVb60lWNSLrsd5-2s1r70KeA89C3VwrGYYdByboQT9o4OzxIr5-8/cX9-sO6&vid=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "江北资源",
-      "name": "江北资源(官)",
-      "type": 1,
-      "api": "https://gfzycj.hnmj.vip/api.php/provide/vod/",
       "playUrl": "parse:parwix1",
       "searchable": 1,
       "quickSearch": 1,
@@ -89,30 +49,10 @@
       "filterable": 0
     },
     {
-      "key": "wabc(腾讯直采)",
-      "name": "wabc(腾讯直采)(官)",
-      "type": 1,
-      "api": "https://wabc.ml/mao/1.php/provide/vod/",
-      "playUrl": "parse:parwix1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "wabc(爱奇艺直采)",
       "name": "wabc(爱奇艺直采)(官)",
       "type": 1,
       "api": "https://wabc.ml/mao/2.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "看猫",
-      "name": "看猫(官)",
-      "type": 1,
-      "api": "http://124.222.83.15:88/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -177,33 +117,6 @@
       "name": "松鼠资源(切)",
       "type": 1,
       "api": "https://m3u8.songshuzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "FOX资源",
-      "name": "FOX资源(切)",
-      "type": 1,
-      "api": "https://api.foxzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "量子资源",
-      "name": "量子资源(切)",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "神速资源",
-      "name": "神速资源(切)",
-      "type": 1,
-      "api": "https://api.sszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -286,15 +199,6 @@
       "name": "新浪资源(切)",
       "type": 1,
       "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "鱼乐资源",
-      "name": "鱼乐资源(切)",
-      "type": 1,
-      "api": "https://api.ylzy1.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -886,7 +790,6 @@
       "filterable": 0
     }
   ],
-  
   "lives": [
     {
       "group": "⚛️央视HD",
@@ -894,7 +797,8 @@
         {
           "name": "CCTV-1",
           "urls": [
-            "http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8","http://39.135.138.59:18890/PLTV/88888910/224/3221225642/index.m3u8",
+            "http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8",
+            "http://39.135.138.59:18890/PLTV/88888910/224/3221225642/index.m3u8",
             "http://39.134.66.110/PLTV/88888888/224/3221225816/index.m3u8",
             "http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225918/index.m3u8",
             "http://117.148.179.160/PLTV/88888888/224/3221231468/index.m3u8",
@@ -1030,7 +934,6 @@
       ]
     }
   ],
-
   "parses": [
     {
       "name": "解析聚合",
@@ -2025,6 +1928,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "https://tomb003.coding.net/p/YuanHsing_OneClickRun/d/YuanHsing_OneClickRun/git/raw/master/kitty/kittyxm.jar"
+  "wallpaper": "https://picsum.photos/1280/720/?blur=10"
 }
