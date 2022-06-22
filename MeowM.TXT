@@ -328,16 +328,6 @@
       "filterable": 0
     },
     {
-      "key": "小猫咪",
-      "name": "小猫咪(聚)",
-      "type": 1,
-      "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
-      "playUrl": "http://xiaomaomi.cc/player/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "随缘电影",
       "name": "随缘电影(聚)",
       "type": 1,
