@@ -36,63 +36,6 @@
       "quickSearch": 1,
       "filterable": 0
     },
-
-    {
-      "key": "麒麟资源",
-      "name": "麒麟资源(官)",
-      "type": 1,
-      "api": "http://www.qilinzyz.com/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "星一官采",
-      "name": "星一官采(官)",
-      "type": 1,
-      "api": "https://gcku.suboyun.vip/api.php/provide/vod/",
-      "playUrl": "https://www.xing1.vip/player/dp/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "wabc(爱奇艺直采)",
-      "name": "wabc(爱奇艺直采)(官)",
-      "type": 1,
-      "api": "https://wabc.ml/mao/2.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "首涂官采",
-      "name": "首涂官采(官)",
-      "type": 1,
-      "api": "http://zy.ishoutu.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "奥特曼资源",
-      "name": "奥特曼资源(官)",
-      "type": 1,
-      "api": "https://aotemanzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "雪人官采",
-      "name": "雪人官采(官)",
-      "type": 1,
-      "api": "https://zl.chinafix.wang/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
     {
       "key": "松鼠资源",
       "name": "松鼠资源(切)",
@@ -149,15 +92,6 @@
       "filterable": 0
     },
     {
-      "key": "快播资源",
-      "name": "快播资源(切)",
-      "type": 1,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "八戒资源",
       "name": "八戒资源(切)",
       "type": 1,
@@ -189,16 +123,6 @@
       "name": "无尽资源(切)",
       "type": 1,
       "api": "https://wujinzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "乐多资源",
-      "name": "乐多资源(切)",
-      "type": 0,
-      "api": "http://cj.leduocaiji.com/inc/api.php",
-      "playUrl": "json:https://api.leduotv.com/wp-api/getvodurl.php?vid=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -285,45 +209,10 @@
       "filterable": 0
     },
     {
-      "key": "旋风云",
-      "name": "旋风云(优)",
-      "type": 1,
-      "api": "http://appimg.ssxmall.cn/api.php/provide/vod/",
-      "playUrl": "https://jx.58g8.com/1/?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "影世界",
-      "name": "影世界(优)",
-      "type": 1,
-      "api": "https://video.yingworld.vip/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-    {
       "key": "饭后电影",
       "name": "饭后电影(优)",
       "type": 1,
       "api": "http://yinliub.cn/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "考拉TV",
-      "name": "考拉TV(优)",
-      "type": 1,
-      "api": "https://ikaola.tv/api.php/provide/vod/",
-      "playUrl": "https://ikaola.tv/vwnet/dplayer/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -356,25 +245,6 @@
       "filterable": 0
     },
     {
-      "key": "51看剧",
-      "name": "51看剧(优)",
-      "type": 1,
-      "api": "http://51kanju.cn/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "每天看看",
-      "name": "每天看看(优)",
-      "type": 1,
-      "api": "http://47.113.126.237:1234/api.php/provide/vod/",
-      "playUrl": "parse:parwix1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "一拳动漫",
       "name": "一拳动漫(优)",
       "type": 1,
@@ -388,15 +258,6 @@
       "name": "饭团影视(优)",
       "type": 1,
       "api": "http://television.wkfile.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "乐活影视",
-      "name": "乐活影视(优)",
-      "type": 1,
-      "api": "https://lehootv.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
