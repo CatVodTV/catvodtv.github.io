@@ -8,7 +8,15 @@
       "playUrl": "https://www.nxflv.com/?url=",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "categories": [
+        "国产剧",
+        "欧美剧",
+        "科幻片",
+        "喜剧片",
+        "综艺频道",
+        "动漫频道"
+      ]
     },
     {
       "key": "卧龙资源",
