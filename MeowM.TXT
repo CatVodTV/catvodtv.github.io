@@ -82,15 +82,6 @@
       "filterable": 0
     },
     {
-      "key": "无尽资源",
-      "name": "无尽资源(切)",
-      "type": 1,
-      "api": "https://wujinzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "南国影源",
       "name": "南国影源(切)",
       "type": 1,
@@ -268,15 +259,6 @@
       "name": "绿地影视(聚)",
       "type": 1,
       "api": "https://v.lvdi.vip/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "天天影视",
-      "name": "天天影视(聚)",
-      "type": 1,
-      "api": "http://tt2022.ga/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -667,6 +649,42 @@
           "urls": [
             "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8",
             "http://39.134.66.110/PLTV/88888888/224/3221225708/index.m3u8"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "✨明星影视",
+      "channels": [
+        {
+          "name": "王晶",
+          "urls": [
+            "http://epg.112114.xyz/huya/11602058"
+          ]
+        },
+        {
+          "name": "吴京",
+          "urls": [
+            "http://epg.112114.xyz/huya/11602045"
+          ]
+        },
+        {
+          "name": "许氏三杰",
+          "urls": [
+            "http://epg.112114.xyz/huya/11602033",
+            "http://1.117.152.239:39000/huya.php?id=11602033"
+          ]
+        },
+        {
+          "name": "张国荣",
+          "urls": [
+            "http://117.148.179.177/PLTV/88888888/224/3221231790/index.m3u8"
+          ]
+        },
+        {
+          "name": "甄子丹",
+          "urls": [
+            "http://epg.112114.xyz/huya/11352935"
           ]
         }
       ]
